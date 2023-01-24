@@ -32,7 +32,7 @@ nav ul li {
 
  .side {
     position: absolute;
-    left: 90%;
+    left: 87%;
   }
 
  .btn {
@@ -44,3 +44,28 @@ nav ul li {
     border-radius: 30px;
     transition: transform .4s;
   }
+
+  .brand {
+    font-size: 50px;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+  }
+
+/** Fading in and out animation **/
+h4 {
+    color: black;
+}
+@import "compass/css3";
+
+@keyframes fadeIn { 
+    from { opacity: 0; } 
+  }
+.hometext {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+}
+.fade {
+    animation: fadeIn 3s infinite alternate;
+}
