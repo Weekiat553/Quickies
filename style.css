@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Signika+Negative&display=swap');
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Signika Negative', sans-serif; 
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -46,7 +59,7 @@ nav ul li {
   }
 
   .brand {
-    font-size: 50px;
+    font-size: 70px;
     position: absolute;
     top: 80%;
     left: 10%;
@@ -68,4 +81,9 @@ h4 {
 }
 .fade {
     animation: fadeIn 3s infinite alternate;
+}
+
+navbar ul li {
+  font-size: 25px;
+  padding: 70px 30px;
 }
