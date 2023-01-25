@@ -76,7 +76,7 @@ h4 {
   }
 .hometext {
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 60%;
 }
 .fade {
@@ -85,5 +85,53 @@ h4 {
 
 navbar ul li {
   font-size: 25px;
-  padding: 70px 30px;
+  padding: 71px 30px;
+}
+
+
+.allsidebar {
+  position: absolute;
+  top: 12.2%;
+  left: -2%;
+}
+.sidebar {
+  background-color: black;
+  color: white;
+  padding: 70px 70px;
+}
+
+.sidebarboy {
+  border-style: solid;
+  border-color: black;
+  padding: 70px 69px;
+}
+
+.sidebar2 {
+  border-style: solid;
+  border-color: black;
+  padding: 70px 64px;
+}
+
+.sidebarwomen {
+  border-style: solid;
+  border-color: black;
+  padding: 70px 51px;
+}
+
+.sidebargirl {
+  border-style: solid;
+  border-color: black;
+  padding: 70px 69.5px;
+}
+
+.sidebarbaby {
+  border-style: solid;
+  border-color: black;
+  padding: 70px 63.5px;
+}
+
+.itemdisplay {
+  background-color: #F5F5F5; {
+
+  }
 }
