@@ -167,3 +167,31 @@ div.a {
   top: 70%;
   left: 20%;
 }
+
+.custombtn {
+  position: absolute;
+  top:90.4%;
+  left: 48.6%;
+} 
+
+.shopbtn {
+  position: absolute;
+  top:90.4%
+}
+.customization {
+  background-color: white;
+  color: black;
+  padding: 45px 120.5px;
+}
+
+.cart {
+  background-color: rgb(61, 61, 61);
+  color: white;
+  padding: 45px 120.5px;
+}
+
+.video {
+  position:absolute;
+  top:90.4%;
+  left: 60%;
+}
