@@ -16,6 +16,12 @@ h2 {
   font-size: 40px;
 }
 
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Signika Negative', sans-serif; 
+  font-size: 20px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -143,43 +149,21 @@ navbar ul li {
   left: 20%;
 }
 
-#star-five {
-  margin: 50px 0;
-  position: relative;
-  display: block;
-  color: red;
-  width: 0px;
-  height: 0px;
-  border-right: 100px solid transparent;
-  border-bottom: 70px solid red;
-  border-left: 100px solid transparent;
-  transform: rotate(35deg);
+div.a {
+  line-height: 1.4;
 }
-#star-five:before {
-  border-bottom: 80px solid red;
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
-  position: absolute;
-  height: 0;
-  width: 0;
-  top: -45px;
-  left: -65px;
-  display: block;
-  content: '';
-  transform: rotate(-35deg);
-}
-#star-five:after {
-  position: absolute;
-  display: block;
-  color: red;
-  top: 3px;
-  left: -105px;
-  width: 0px;
-  height: 0px;
-  border-right: 100px solid transparent;
-  border-bottom: 70px solid red;
-  border-left: 100px solid transparent;
-  transform: rotate(-70deg);
-  content: '';
+.checked{
+  color: orange;
 }
 
+.rating {
+  position: absolute;
+  top: 37%;
+  left: 20%;
+}
+
+.madein {
+  position: absolute;
+  top: 70%;
+  left: 20%;
+}
