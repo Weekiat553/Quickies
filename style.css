@@ -195,3 +195,52 @@ div.a {
   top:85.6%;
   left: 52.3%;
 }
+
+.product-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  height: 100vh;
+}
+
+.img-display {
+  overflow: hidden;
+}
+
+.img-showcase {
+  display: flex;
+  width: 100%;
+  transition: all 0.5s ease;
+}
+
+.img-showcase img {
+  min-width: 100%;  
+}
+
+.product-slider {
+  width: 33%;
+}
+
+.img-select{
+  display:flex;
+}
+
+.img-item {
+  padding-right: 5px;
+}
+
+.img-item:nth-child(4) {
+  padding-right: 0;
+}
+
+.img-item:hover {
+  opacity: 0.8;
+}
+
+.map {
+  position: absolute;
+  top:15%;
+  left:45%;
+}
