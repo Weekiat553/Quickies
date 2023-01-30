@@ -244,3 +244,23 @@ div.a {
   top:15%;
   left:45%;
 }
+
+.locations {
+  position: absolute;
+  top: 15%;
+  left:10%;
+}
+
+.scroll {
+  width: 400px;
+  height: 600px;
+  border: solid black 2px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.blue {
+  background-color: lightblue;
+  width: 95%;
+  aspect-ratio: 3/1;
+}
