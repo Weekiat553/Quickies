@@ -248,19 +248,18 @@ div.a {
 .locations {
   position: absolute;
   top: 15%;
-  left:10%;
+  left:3%;
 }
 
 .scroll {
-  width: 400px;
-  height: 600px;
-  border: solid black 2px;
+  width: 600px;
+  height: 630px;
   overflow: hidden;
   overflow-y: scroll;
 }
 
 .blue {
-  background-color: lightblue;
-  width: 95%;
-  aspect-ratio: 3/1;
+  background-color: rgb(91, 119, 155);
+  padding: 10%;
+  width: 90%;
 }
