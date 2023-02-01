@@ -196,49 +196,6 @@ div.a {
   left: 52.3%;
 }
 
-.product-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 2rem;
-  height: 100vh;
-}
-
-.img-display {
-  overflow: hidden;
-}
-
-.img-showcase {
-  display: flex;
-  width: 100%;
-  transition: all 0.5s ease;
-}
-
-.img-showcase img {
-  min-width: 100%;  
-}
-
-.product-slider {
-  width: 33%;
-}
-
-.img-select{
-  display:flex;
-}
-
-.img-item {
-  padding-right: 5px;
-}
-
-.img-item:nth-child(4) {
-  padding-right: 0;
-}
-
-.img-item:hover {
-  opacity: 0.8;
-}
-
 .map {
   position: absolute;
   top:15%;
@@ -259,7 +216,45 @@ div.a {
 }
 
 .blue {
-  background-color: rgb(91, 119, 155);
-  padding: 10%;
+  background-color: white;
+  padding: 7%;
   width: 90%;
+  transition: transform 1s;
+}
+.blue:hover {
+  transform: scale(1.1);
+}
+
+.hero {
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.hero img {
+  height: 160%
+}
+
+
+.thumbnail {
+  display: inline-block;
+  cursor: pointer;
+  height: 50px;
+}
+.clicks {
+  position: absolute;
+  top: 165%;
+  left: 13%;
+}
+a.thumbnail:hover {
+  box-shadow: 5px 5px 5px gray;
+}
+
+.thumbnail img {
+  max-height: 120%;
+}
+
+.carou {
+  position:absolute;
+  top:20%;
+  left: 61.5%;
 }
