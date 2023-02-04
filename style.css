@@ -29,6 +29,11 @@ h3 {
     list-style: none;
 }
 
+main {
+  background-image: url('img/bgadidas.jpg');
+  height: 50%;
+}
+
 nav {
     display: flex;
     align-items: center;
@@ -231,7 +236,7 @@ div.a {
 }
 
 .hero img {
-  height: 160%
+  height: 160%;
 }
 
 
@@ -258,3 +263,43 @@ a.thumbnail:hover {
   top:20%;
   left: 61.5%;
 }
+
+.latest {
+  margin-top: 4%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: red;
+  background-image: linear-gradient(to right,red 0%, red 33%, blue 33%, blue 66%, green 66%, green 99%);
+  height: 86.6vh;
+}
+.cartpage {
+  position: absolute;
+  top: 15%;
+}
+ .cartitem {
+  background-color: rgb(214, 214, 214);
+  padding: 5%;
+  width: 500%;
+ }
+
+ .quantity {
+  display: flex;
+  justify-content: flex-end;
+ }
+
+ .quantalign {
+  position: absolute;
+  top: 5%;
+ }
+
+ td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+
