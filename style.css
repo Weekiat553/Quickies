@@ -302,4 +302,12 @@ a.thumbnail:hover {
   padding-right: 40px;
 }
 
+.total {
+  position: absolute;
+  top: 25%;
+  left: 70%;
+}
 
+div.b {
+  line-height: 10;
+}
