@@ -313,7 +313,9 @@ div.b {
 }
 
 .cform {
-  align-items: center;
+  position: absolute;
+  top: 10%;
+  left: 38.5%;
 }
 ::selection{
   color: #fff;
