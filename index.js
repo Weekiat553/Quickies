@@ -6,6 +6,7 @@ $(document).ready(function () {
       e.preventDefault();
       console.log('hello');
       
+      
       let email = $("#email").val();
       let password = $("#password").val();
       let username = $("#username").val();
@@ -36,7 +37,9 @@ $(document).ready(function () {
 
         $("#start").prop( "disabled", false);
         getContacts();
+        window.location.assign('home.html');
     }); 
+
 });
 
 function getContacts(limit = 10, all = true) {
@@ -45,6 +48,4 @@ function getContacts(limit = 10, all = true) {
 })
 
 
-function auth(){
-  window.location.assign('latest.html')
-}
+
