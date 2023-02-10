@@ -37,7 +37,7 @@ $(document).ready(function () {
 
         $("#start").prop( "disabled", false);
         getContacts();
-        window.location.assign('home.html');
+        window.location.assign('loading.html');
     }); 
 
 });

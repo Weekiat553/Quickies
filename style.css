@@ -1,18 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Signika+Negative&display=swap');
+a {
+  font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Signika Negative', sans-serif;
+}
 
 p {
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Signika Negative', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Signika Negative', sans-serif;
 }
 
 h1 {
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Signika Negative', sans-serif; 
-    font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 50px;
 }
 h2 {
   font-family: 'Poppins', sans-serif;
-  font-family: 'Signika Negative', sans-serif; 
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Signika Negative', sans-serif;
+
   font-size: 40px;
 }
 
@@ -30,8 +39,11 @@ h3 {
 }
 
 main {
-  background-image: url('img/bgadidas.jpg');
-  height: 50%;
+  position: fixed;
+  z-index: -1;
+  top:0; right:0; bottom:0; left:0;
+  background: url(img/revolt.jpg) center;
+  background-size: cover;
 }
 
 nav {
@@ -255,13 +267,13 @@ a.thumbnail:hover {
 }
 
 .thumbnail img {
-  max-height: 120%;
+  max-height: 110%;
 }
 
 .carou {
   position:absolute;
-  top:20%;
-  left: 61.5%;
+  top:15%;
+  left: 65.5%;
 }
 
 .latest {
