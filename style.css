@@ -119,7 +119,7 @@ navbar ul li {
 
 .allsidebar {
   position: absolute;
-  top: 13.1%;
+  top: 11.1%;
   left: -2%;
 }
 .sidebar {
@@ -157,7 +157,7 @@ navbar ul li {
   width: 650px;
   height: 655px;
   position: absolute;
-  top: 13.1%;
+  top: 11.1%;
   left: 10%;
 }
 .textdisplay {
@@ -538,4 +538,16 @@ form .page .btns button.next{
 
 .post {
   margin-top: 5%;
+}
+
+.loading {
+  position:absolute;
+  top:2%;
+  left:39%;
+}
+
+.loadtext {
+  position:absolute;
+  top:70%;
+  left:38.9%;
 }
