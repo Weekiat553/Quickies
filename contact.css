@@ -1,0 +1,165 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Signika+Negative&display=swap');
+a {
+  font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Signika Negative', sans-serif;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Signika Negative', sans-serif;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 50px;
+}
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Signika Negative', sans-serif;
+
+  font-size: 40px;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Signika Negative', sans-serif; 
+  font-size: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+  .map {
+    position: absolute;
+    top:15%;
+    left:45%;
+  }
+  
+  .locations {
+    position: absolute;
+    top: 15%;
+    left:3%;
+  }
+  
+  .scroll {
+    width: 600px;
+    height: 630px;
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+  
+  .blue {
+    background-color: white;
+    padding: 7%;
+    width: 90%;
+    transition: transform 1s;
+  }
+  .blue:hover {
+    transform: scale(1.1);
+  }
+
+  /** Mobile Responsive **/
+  @media screen and (max-width: 1090px) {
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 50px;
+      }
+      h2 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+      
+        font-size: 40px;
+      }
+      
+      h3 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Signika Negative', sans-serif; 
+        font-size: 20px;
+      }
+    .map {
+        position: absolute;
+        top:10%;
+        left:3%;
+      }
+      .scroll {
+        width: 600px;
+        height: 630px;
+        overflow: hidden;
+        overflow-y: scroll;
+      }
+      .locations {
+        position: absolute;
+        top: 100%;
+        left:15%;
+      }
+      .blue {
+        background-color: white;
+        padding: 7%;
+        width: 90%;
+        transition: transform 1s;
+      }
+      .blue:hover {
+        transform: scale(1.1);
+      }
+  }
+
+  @media screen and (max-width: 360px) {
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 40px;
+      }
+      h2 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+      
+        font-size: 30px;
+      }
+      
+      h3 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Signika Negative', sans-serif; 
+        font-size: 20px;
+      }
+    .map {
+        position: absolute;
+        top:10%;
+        left:3%;
+      }
+      .scroll {
+        width: 600px;
+        height: 630px;
+        overflow: hidden;
+        overflow-y: scroll;
+      }
+      .locations {
+        position: absolute;
+        top: 60%;
+        left:3%;
+      }
+      .blue {
+        background-color: white;
+        padding: 7%;
+        width: 90%;
+        transition: transform 1s;
+      }
+      .blue:hover {
+        transform: scale(1.1);
+      }
+  }
