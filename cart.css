@@ -1,6 +1,6 @@
 .cartpage {
     position: absolute;
-    top: 20%;
+    top: 15%;
   }
 
   td, th {
@@ -30,4 +30,213 @@
 
   div.b {
     line-height: 5;
+  }
+  @media screen and (max-width: 1160px) {
+    .total {
+      position: absolute;
+      top: 25%;
+      left: 80%;
+    }
+  }
+
+
+  @media screen and (max-width: 1090px) {
+    .total {
+      position: absolute;
+      top: 25%;
+      left: 80%;
+    }
+  }
+
+  @media screen and (max-width: 1019px) {
+    .total {
+      position: absolute;
+      top: 77%;
+      left: 1%;
+    }
+   
+  }
+
+  @media screen and (max-width: 725px) {
+    .total {
+      position: absolute;
+      top: 77%;
+      left: 1%;
+    }
+
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: center;
+      padding-top: 5px;
+      padding-bottom: 15px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+   
+  }
+
+  @media screen and (max-width: 620px) {
+    .total {
+      position: absolute;
+      top: 77%;
+      left: 1%;
+    }
+
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: center;
+      padding-top: 3px;
+      padding-bottom: 15px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+   
+  }
+
+  @media screen and (max-width: 620px) {
+    .total {
+      position: absolute;
+      top: 77%;
+      left: 1%;
+    }
+
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: center;
+      padding-top: 3px;
+      padding-bottom: 15px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+
+  @media screen and (max-width: 620px) {
+    .total {
+      position: absolute;
+      top: 77%;
+      left: 1%;
+    }
+
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: center;
+      padding-top: 3px;
+      padding-bottom: 15px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+   
+  }
+
+  @media screen and (max-width: 560px) {
+    .total {
+      position: absolute;
+      top: 77%;
+      left: 1%;
+    }
+
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: center;
+      padding-top: 2px;
+      padding-bottom: 12px;
+      padding-left: 12px;
+      padding-right: 12px;
+    }
+   
+  }
+
+  @media screen and (max-width: 520px) {
+    .total {
+      position: absolute;
+      top: 77%;
+      left: 1%;
+    }
+
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: center;
+      padding-top: 2px;
+      padding-bottom: 5px;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+  }
+
+  @media screen and (max-width: 440px) {
+    .total {
+      position: absolute;
+      top: 77%;
+      left: 1%;
+    }
+
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: center;
+      padding-top: 2px;
+      padding-bottom: 2px;
+      padding-left: 2px;
+      padding-right: 2px;
+    }
+  }
+
+  @media screen and (max-width: 420px) {
+    .total {
+      position: absolute;
+      top: 65%;
+      left: 1%;
+    }
+
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: center;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      padding-left: 1px;
+      padding-right: 1px;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .total {
+      position: absolute;
+      top: 65%;
+      left: 1%;
+    }
+
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: center;
+      padding-top: 0.5px;
+      padding-bottom: 0.5px;
+      padding-left: 0.5px;
+      padding-right: 0.5px;
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+    .total {
+      position: absolute;
+      top: 65%;
+      left: 25%;
+    }
+
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: center;
+      padding-top: -1px;
+      padding-bottom: -1px;
+      padding-left: -1px;
+      padding-right: -1px;
+      font-size: 15px;
+    }
+
+    div.b {
+      line-height: 3;
+    }
+
+    .butt {
+      position:absolute;
+      left: 25%;
+    }
   }

@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Signika+Negative&display=swap');
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Signika Negative', sans-serif;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 50px;
+}
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Signika Negative', sans-serif;
+  color: white;
+
+  font-size: 40px;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Signika Negative', sans-serif; 
+  font-size: 20px;
+}
+
+
+.feed {
+    position: absolute;
+    top: 15%;
+    left:34%;
+  }
+
+  .price {
+    position: relative;
+    margin-top: 15%;
+    left: 10%;
+  }
+  
+  .shoe-side {
+    position: absolute;
+    top: 9%;
+    left: 45%;
+  }
+  
+  .shoe-side2 {
+    position: absolute;
+    top: 42%;
+    left: 45%;
+  }
+  
+  .shoe-side3 {
+    position: absolute;
+    top: 74%;
+    left: 45%;
+  }
+  .side-img {
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-end;
+  }
+  
+  .like {
+    display:flex;
+  }
+  
+  .interact {
+    display:flex;
+    justify-content: space-around;
+  }
+  
+  .post {
+    margin-top: 5%;
+    background: black;
+    opacity: 0.8;
+    border-radius:15%;
+    width: 60%;
+  }
+  
+  .loading {
+    position:absolute;
+    top: 20%;
+    left:39%;
+  }
+
+ .responsive {
+    width: 70%;
+  }
+
+  .small {
+    width:20%;
+  }
+
+  .btns{
+    position: absolute;
+    top: 216px;
+    left: 328px;
+    display: flex;
+}
+
+.btn{
+    background: transparent;
+    border: none;
+    margin: 87px;
+    font-size: 88px;
+    outline: none;
+    color: grey;
+}
+
+.btn i:hover{
+    cursor: pointer;
+}
+
+            
+     
+  @media screen and (max-width: 1240px) {
+    .feed {
+        position: absolute;
+        top: 15%;
+        left:20%;
+      }
+  }
+
+  @media screen and (max-width: 900px) {
+    .feed {
+        position: absolute;
+        top: 15%;
+        left:10%;
+      }
+  }
+
+  @media screen and (max-width: 685px) {
+    h2 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+        color: white;
+      
+        font-size: 20px;
+      }
+    .feed {
+        position: absolute;
+        top: 15%;
+        left:10%;
+      }
+
+    .feed .post img .mshoe {
+        width: 50px;
+        height: 50px;
+    }
+    .responsive {
+        width: 60%;
+        height: 70;
+      }
+  }

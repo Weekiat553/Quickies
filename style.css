@@ -46,26 +46,6 @@ main {
   background-size: cover;
 }
 
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 20px;
-    padding-left: 7%;
-    padding-right: 8%;
-}
-
-nav ul li {
-    list-style-type: none;
-    display: inline-block;
-    padding: 10px 10px;
-  }
-  
-  nav ul li a {
-    color: black;
-    font-weight: bold;
-  }
-
   .align {
     position: absolute;
     left: 44%;
@@ -299,54 +279,6 @@ a.thumbnail:hover {
   position: absolute;
   top: 5%;
  }
-
-.feed {
-  position: absolute;
-  top: 15%;
-  left:34%;
-}
-
-.shoe-side {
-  position: absolute;
-  top: 8%;
-  left: 100%;
-}
-
-.shoe-side2 {
-  position: absolute;
-  top: 40%;
-  left: 100%;
-}
-
-.shoe-side3 {
-  position: absolute;
-  top: 72%;
-  left: 100%;
-}
-.side-img {
-  display:flex;
-  flex-direction: column;
-  justify-content:flex-end;
-}
-
-.like {
-  display:flex;
-}
-
-.interact {
-  display:flex;
-  justify-content: space-around;
-}
-
-.post {
-  margin-top: 5%;
-}
-
-.loading {
-  position:absolute;
-  top: 20%;
-  left:39%;
-}
 
 .loadtext {
   position:absolute;
