@@ -1,0 +1,33 @@
+.cartpage {
+    position: absolute;
+    top: 20%;
+  }
+
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 17px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .total {
+    position: absolute;
+    top: 25%;
+    left: 70%;
+  }
+
+  .btn {
+    background-color: green;
+    color: white;
+    border: 2px sold transparent;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 30px;
+    transition: transform .4s;
+  }
+
+  div.b {
+    line-height: 5;
+  }
