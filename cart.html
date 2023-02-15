@@ -23,37 +23,37 @@
       </ul>
       </nav>
       <div class ='cartpage'>
-        <table>
+        <table id ='table'>
           <tr>
             <th>No.</th>
             <th>Item</th>
             <th>Image</th>
             <th>Price</th>
             <th>Quantity</th>
-            <th></th>
+            <th>Delete</th>
           </tr>
           <tr>
             <td>1.</td>
             <td>Adidas Pro Max 14</td>
-            <td><img src ='img/img1.jpg' width="100" height ='100'></td>
+            <td><img src ='img/parley.png' width="100" height ='100'></td>
             <td>$1000</td>
-            <td><input type="number" id="quantity" name="quantity" min="1" max="5" step="1" value="5" width ='50'></td>
+            <td><input type="number" id="quantity" name="quantity" min="1" max="5" step="1" value="1" width ='50'></td>
             <td>Remove</td>
           </tr>
           <tr>
             <td>2.</td>
             <td>Adidas Pro Max 13</td>
-            <td><img src ='img/img1.jpg' width="100" height ='100'></td>
+            <td><img src ='img/shoe4.png' width="100" height ='100'></td>
             <td>$800</td>
-            <td><input type="number" id="quantity" name="quantity" min="1" max="5" step="1" value="5" width ='50'></td>
+            <td><input type="number" id="quantity" name="quantity" min="1" max="5" step="1" value="1" width ='50'></td>
             <td>Remove</td>
           </tr>
           <tr>
             <td>3.</td>
             <td>Adidas Pro Max 12</td>
-            <td><img src ='img/img1.jpg' width="100" height ='100'></td>
+            <td><img src ='img/air3.png' width="100" height ='100'></td>
             <td>$500</td>
-            <td><input type="number" id="quantity" name="quantity" min="1" max="5" step="1" value="5" width ='50'></td>
+            <td><input type="number" id="quantity" name="quantity" min="1" max="5" step="1" value="1" width ='50'></td>
             <td>Remove</td>
           </tr>
         </table>
@@ -64,5 +64,23 @@
         <div class ='b'><h1>Total: $2366</h1></div>
         <a href ='checkout.html' class="btn">Checkout</a>
       </div>
+      <script>
+        var index, table = document.getElementById('table');
+            for(var i = 1; i < table.rows.length; i++)
+            {
+                table.rows[i].cells[5].onclick = function()
+                {
+                     var c = confirm("do you want to remove this item?");
+                    if(c === true)
+                    {
+                        index = this.parentElement.rowIndex;
+                        table.deleteRow(index);
+                    }
+                    
+                    //console.log(index);
+                };
+                
+            }
+    </script>
   </body>
   </html>
