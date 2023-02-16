@@ -286,7 +286,7 @@ navbar ul li {
         height: 104px;
     }
   }
-
+/** Mobile Responsive **/
   @media screen and (max-width: 1220px) {
     navbar ul li {
         font-size: 25px;
