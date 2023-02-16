@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Signika+Negative&display=swap');
+a {
+  font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Signika Negative', sans-serif;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Signika Negative', sans-serif;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 50px;
+}
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Signika Negative', sans-serif;
+
+  font-size: 40px;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Signika Negative', sans-serif; 
+  font-size: 20px;
+}
+
+main {
+    position: fixed;
+    z-index: -1;
+    top:0; right:0; bottom:0; left:0;
+    background: url(img/revolt.jpg) center;
+    background-size: cover;
+  }
+
+  .brand {
+    font-size: 70px;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+  }
+
+/** Fading in and out animation **/
+h4 {
+    color: black;
+}
+@import "compass/css3";
+
+@keyframes fadeIn { 
+    from { opacity: 0; } 
+  }
+.hometext {
+    position: absolute;
+    top: 20%;
+    left: 70%;
+}
+.fade {
+    animation: fadeIn 3s infinite alternate;
+}
+
+@media screen and (max-width: 650px) {
+    .hometext {
+        position: absolute;
+        top: 80%;
+        left: 25%;
+    }
+
+    .brand {
+        font-size: 70px;
+        position: absolute;
+        top: 70%;
+        left: 30%;
+      }
+
+      main {
+        position: fixed;
+        z-index: -1;
+        top:0; right:0; bottom:0; left:0;
+        background: url(img/revolt.jpg) center;
+        background-size: 100%;
+      }
+
+      h1 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 40px;
+      }
+      h2 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+      
+        font-size: 30px;
+      }
+
+  }
+
+  @media screen and (max-width: 393px) {
+    .hometext {
+        position: absolute;
+        top: 80%;
+        left: 12%;
+        height: 10%;
+    }
+
+    .brand {
+        font-size: 70px;
+        position: absolute;
+        top: 70%;
+        left: 25%;
+      }
+
+      main {
+        position: fixed;
+        z-index: -1;
+        top:0; right:0; bottom:0; left:0;
+        background: url(img/revolt.jpg) center;
+        background-size: 100%;
+      }
+
+      h1 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 40px;
+      }
+      h2 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+      
+        font-size: 30px;
+      }
+
+      p {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 14px;
+      }
+      
+  }
+  @media screen and (max-width: 360px) {
+    .hometext {
+        position: absolute;
+        top: 80%;
+        left: 12%;
+        height: 10%;
+    }
+
+    .brand {
+        font-size: 70px;
+        position: absolute;
+        top: 70%;
+        left: 25%;
+      }
+
+      main {
+        position: fixed;
+        z-index: -1;
+        top:0; right:0; bottom:0; left:0;
+        background: url(img/revolt.jpg) center;
+        background-size: 100%;
+      }
+
+      h1 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 40px;
+      }
+      h2 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+      
+        font-size: 30px;
+      }
+
+      p {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 14px;
+      }
+      
+
+  }

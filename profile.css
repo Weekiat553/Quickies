@@ -1,0 +1,837 @@
+.img {
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
+    color: white;
+    font-size: 50px;
+  }
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 40px;
+  }
+
+  h3 {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 20px;
+    color: white;
+  }
+
+  h4 {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 20px;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.profile {
+    position: absolute;
+    top: 20%;
+    left: 28%;
+    width: 200px;
+}
+
+.info {
+    position: absolute;
+    top: 30%;
+    left:210%;
+}
+
+.status {
+    background-color: red;
+    background-image: linear-gradient(to bottom, red, rgb(88, 88, 255));
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    border-radius: 15%;
+}
+
+.statext {
+    position: relative;
+    top: 10%;
+    left:5%;
+}
+
+.discount {
+    position: absolute;
+    top: 280%;
+    left: 2%;
+}
+
+.desc {
+    position: absolute;
+    top: 500%;
+    left: 1%;
+}
+
+.logout {
+    position: relative;
+    top: -120%;
+    left: -100%;
+}
+
+@media screen and (max-width: 930px) {
+    .img {
+        border-radius: 100%;
+        width: 250px;
+        height: 250px;
+    }
+    
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+        color: white;
+        font-size: 50px;
+      }
+    
+    h2 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 40px;
+      }
+    
+      h3 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 20px;
+        color: white;
+      }
+    
+      h4 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 20px;
+      }
+    
+      * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style: none;
+    }
+    .profile {
+        position: absolute;
+        top: 20%;
+        left: 17%;
+        width: 200px;
+    }
+    
+    .info {
+        position: absolute;
+        top: 30%;
+        left:210%;
+    }
+    
+
+    .status {
+        background-color: red;
+        background-image: linear-gradient(to bottom, red, rgb(88, 88, 255));
+        width: 500px;
+        height: 300px;
+        position: absolute;
+        top: 60%;
+        left: 25%;
+        border-radius: 15%;
+    }
+    
+    .statext {
+        position: relative;
+        top: 10%;
+        left:5%;
+    }
+    
+    .discount {
+        position: absolute;
+        top: 280%;
+        left: 2%;
+    }
+    
+    .desc {
+        position: absolute;
+        top: 500%;
+        left: 1%;
+    }
+    
+    .logout {
+        position:relative;
+        top: -130%;
+        left: -30%;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .img {
+        border-radius: 100%;
+        width: 250px;
+        height: 250px;
+    }
+    
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+        color: white;
+        font-size: 50px;
+      }
+    
+    h2 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 40px;
+      }
+    
+      h3 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 20px;
+        color: white;
+      }
+    
+      h4 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 20px;
+      }
+    
+      * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style: none;
+    }
+    .profile {
+        position: absolute;
+        top: 20%;
+        left: 14%;
+        width: 200px;
+    }
+    
+    .info {
+        position: absolute;
+        top: 30%;
+        left:210%;
+    }
+    
+
+    .status {
+        background-color: red;
+        background-image: linear-gradient(to bottom, red, rgb(88, 88, 255));
+        width: 500px;
+        height: 300px;
+        position: absolute;
+        top: 60%;
+        left: 25%;
+        border-radius: 15%;
+    }
+    
+    .statext {
+        position: relative;
+        top: 10%;
+        left:5%;
+    }
+    
+    .discount {
+        position: absolute;
+        top: 280%;
+        left: 2%;
+    }
+    
+    .desc {
+        position: absolute;
+        top: 500%;
+        left: 1%;
+    }
+    
+    .logout {
+        position:relative;
+        top: -130%;
+        left: -30%;
+    }
+  }
+
+  @media screen and (max-width: 765px) {
+    .img {
+        border-radius: 100%;
+        width: 250px;
+        height: 250px;
+    }
+    
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+        color: white;
+        font-size: 50px;
+      }
+    
+    h2 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 40px;
+      }
+    
+      h3 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 20px;
+        color: white;
+      }
+    
+      h4 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 20px;
+      }
+    
+      * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style: none;
+    }
+    .profile {
+        position: absolute;
+        top: 20%;
+        left: 14%;
+        width: 200px;
+    }
+    
+    .info {
+        position: absolute;
+        top: 30%;
+        left:150%;
+    }
+    
+
+    .status {
+        background-color: red;
+        background-image: linear-gradient(to bottom, red, rgb(88, 88, 255));
+        width: 500px;
+        height: 300px;
+        position: absolute;
+        top: 60%;
+        left: 15%;
+        border-radius: 15%;
+    }
+    
+    .statext {
+        position: relative;
+        top: 10%;
+        left:5%;
+    }
+    
+    .discount {
+        position: absolute;
+        top: 280%;
+        left: 2%;
+    }
+    
+    .desc {
+        position: absolute;
+        top: 500%;
+        left: 1%;
+    }
+    
+    .logout {
+        position:relative;
+        top: -130%;
+        left: -20%;
+    }
+  }
+
+  @media screen and (max-width: 625px) {
+    .img {
+        border-radius: 100%;
+        width: 150px;
+        height: 150px;
+    }
+    
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+        color: white;
+        font-size: 40px;
+      }
+    
+    h2 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 30px;
+      }
+    
+      h3 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 20px;
+        color: white;
+      }
+    
+      h4 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 20px;
+      }
+    
+      * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style: none;
+    }
+    .profile {
+        position: absolute;
+        top: 20%;
+        left: 12%;
+        width: 200px;
+    }
+    
+    .info {
+        position: absolute;
+        top: 30%;
+        left:150%;
+    }
+    
+
+    .status {
+        background-color: red;
+        background-image: linear-gradient(to bottom, red, rgb(88, 88, 255));
+        width: 500px;
+        height: 300px;
+        position: absolute;
+        top: 60%;
+        left: 10%;
+        border-radius: 15%;
+    }
+    
+    .statext {
+        position: relative;
+        top: 15%;
+        left:5%;
+    }
+    
+    .discount {
+        position: absolute;
+        top: 280%;
+        left: 2%;
+    }
+    
+    .desc {
+        position: absolute;
+        top: 550%;
+        left: 1%;
+    }
+    
+    .logout {
+        position:relative;
+        top: -130%;
+        left: -10%;
+    }
+  }
+
+  @media screen and (max-width: 580px) {
+    .img {
+        border-radius: 100%;
+        width: 150px;
+        height: 150px;
+    }
+    
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+        color: white;
+        font-size: 40px;
+      }
+    
+    h2 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 30px;
+      }
+    
+      h3 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 20px;
+        color: white;
+      }
+    
+      h4 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 20px;
+      }
+    
+      * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style: none;
+    }
+    .profile {
+        position: absolute;
+        top: 20%;
+        left: 12%;
+        width: 200px;
+    }
+    
+    .info {
+        position: absolute;
+        top: 30%;
+        left:120%;
+    }
+    
+
+    .status {
+        background-color: red;
+        background-image: linear-gradient(to bottom, red, rgb(88, 88, 255));
+        width: 500px;
+        height: 300px;
+        position: absolute;
+        top: 60%;
+        left: 10%;
+        border-radius: 15%;
+    }
+    
+    .statext {
+        position: relative;
+        top: 15%;
+        left:5%;
+    }
+    
+    .discount {
+        position: absolute;
+        top: 280%;
+        left: 2%;
+    }
+    
+    .desc {
+        position: absolute;
+        top: 550%;
+        left: 1%;
+    }
+    
+    .logout {
+        position:relative;
+        top: -130%;
+        left: -10%;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+    .img {
+        border-radius: 100%;
+        width: 150px;
+        height: 150px;
+    }
+    
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+        color: white;
+        font-size: 40px;
+      }
+    
+    h2 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 30px;
+      }
+    
+      h3 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 20px;
+        color: white;
+      }
+    
+      h4 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 20px;
+      }
+    
+      * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style: none;
+    }
+    .profile {
+        position: absolute;
+        top: 20%;
+        left: 12%;
+        width: 200px;
+    }
+    
+    .info {
+        position: absolute;
+        top: 30%;
+        left:120%;
+    }
+    
+
+    .status {
+        background-color: red;
+        background-image: linear-gradient(to bottom, red, rgb(88, 88, 255));
+        width: 450px;
+        height: 250px;
+        position: absolute;
+        top: 60%;
+        left: 5%;
+        border-radius: 15%;
+    }
+    
+    .statext {
+        position: relative;
+        top: 15%;
+        left:5%;
+    }
+    
+    .discount {
+        position: absolute;
+        top: 280%;
+        left: 2%;
+    }
+    
+    .desc {
+        position: absolute;
+        top: 550%;
+        left: 1%;
+    }
+    
+    .logout {
+        position:relative;
+        top: -150%;
+        left: -5%;
+    }
+
+}
+
+@media screen and (max-width: 495px) {
+    .img {
+        border-radius: 100%;
+        width: 150px;
+        height: 150px;
+    }
+    
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+        color: white;
+        font-size: 40px;
+      }
+    
+    h2 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 30px;
+      }
+    
+      h3 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 20px;
+        color: white;
+      }
+    
+      h4 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 20px;
+      }
+    
+      * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style: none;
+    }
+    .profile {
+        position: absolute;
+        top: 20%;
+        left: 6%;
+        width: 200px;
+    }
+    
+    .info {
+        position: absolute;
+        top: 30%;
+        left:110%;
+    }
+    
+
+    .status {
+        background-color: red;
+        background-image: linear-gradient(to bottom, red, rgb(88, 88, 255));
+        width: 400px;
+        height: 200px;
+        position: absolute;
+        top: 60%;
+        left: 2%;
+        border-radius: 15%;
+    }
+    
+    .statext {
+        position: relative;
+        top: 15%;
+        left:5%;
+    }
+    
+    .discount {
+        position: absolute;
+        top: 240%;
+        left: 2%;
+    }
+    
+    .desc {
+        position: absolute;
+        top: 480%;
+        left: 1%;
+    }
+    
+    .logout {
+        position:relative;
+        top: -195%;
+        left: 1%;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+    .img {
+        border-radius: 100%;
+        width: 100px;
+        height: 100px;
+    }
+    
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+        color: white;
+        font-size: 30px;
+      }
+    
+    h2 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 20px;
+      }
+    
+      h3 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 10px;
+        color: white;
+      }
+    
+      h4 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 10px;
+      }
+    
+      * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style: none;
+    }
+    .profile {
+        position: absolute;
+        top: 20%;
+        left: 6%;
+        width: 200px;
+    }
+    
+    .info {
+        position: absolute;
+        top: 30%;
+        left:90%;
+    }
+    
+
+    .status {
+        background-color: red;
+        background-image: linear-gradient(to bottom, red, rgb(88, 88, 255));
+        width: 325px;
+        height: 200px;
+        position: absolute;
+        top: 40%;
+        left: 2%;
+        border-radius: 15%;
+    }
+    
+    .statext {
+        position: relative;
+        top: 15%;
+        left:5%;
+    }
+    
+    .discount {
+        position: absolute;
+        top: 240%;
+        left: 2%;
+    }
+    
+    .desc {
+        position: absolute;
+        top: 500%;
+        left: 1%;
+    }
+    
+    .logout {
+        position:relative;
+        top: -125%;
+        left: 4%;
+    }
+
+}

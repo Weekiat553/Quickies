@@ -5,28 +5,26 @@
   <meta name="viewport" content="width=device-width">
   <title> Home </title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="style.css" rel="stylesheet" type="text/css" >
+  <link rel = 'stylesheet' href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link href="product.css" rel="stylesheet" type="text/css" >
+  <link href="nav.css" rel="stylesheet" type="text/css" >
  
 </head>
 <body>
-    <nav>
-          <ul>
-            
-            <div class ='align'>
-              <div class ='qlogo'>
-              <a href="home.html" class="logo"><img src='img/quick.png' width ='40' height ='40'></a>
-            </div>
-            <li><a href="latest.html">Latest</a></li>
-            <li><a href="product.html">Product</a></li>
-            <li><a href="Contact.html">Contact</a></li>
-            <li><a href="feed.html">Feed</a></li>
-            </div>
-            <div class = 'side'>
-            <li><a href="cart.html"><img src ='img/shopping-cart.png' width ='25' height ='25'></a></li>
-            <li><a href="cart.html"><img src ='img/user.png' width ='25' height ='25'></a></li>
-            </div>
-          </ul>
-          </nav>
+  <nav>
+    <a href ='home.html' class ='logo'><img src='img/logo.png' width ='40' height ='40'></a>
+    <ul class = 'navbar'>
+      <li><a href ='latest.html' >Latest</a></li>
+      <li><a href ='product.html' >Product</a></li>
+      <li><a href ='feed.html' >Feed</a></li>
+      <li><a href ='contact.html' >Contact</a></li>
+    </ul>
+    <div class ='sidem'>
+      <a href ='cart.html' class='cart'><img src='img/shopping-cart.png' width ='30'></a>
+      <a href ='cart.html'><img src='img/user.png' width ='32' height ='34'></a>
+      <div class ='bx bx-menu' id='menu-icon'></div>
+    </div>
+    </nav>
       <navbar>
         <div class = 'sidemenu'>
         <ul>
@@ -45,47 +43,43 @@
         <div class = 'textdisplay'>
         <div class = 'a'><h1> Nike Pro Max 100</h1></div>
         <div class = 'a'><h2>$1,000</h2></div>
+        <div class = 'a'></div><h2>⭐⭐⭐⭐⭐</h2>
+        <div class = 'a'><h3><br>Shoe that grants you ultimate speed. <br> Suitable for both running and hiking. <br> Air resistance to keep your feet cool. <br> Comfy material to prevent blisters. <br> Light as feather.
+        </h3>
         </div>
-        <div class= 'rating'>
-          <span class="fa fa-star fa-3x checked"></span>
-          <span class="fa fa-star fa-3x checked"></span>
-          <span class="fa fa-star fa-3x checked"></span>
-          <span class="fa fa-star fa-3x checked"></span>
-          <span class="fa fa-star fa-3x"></span>
-          </div>
+      </div>
         <div class = 'a'>
-        <h2></h2>
         </div>
         <div class = 'madein'>
-          <h3>Made in Korea </h3>
-          <h3>_______________________________</h3>
+          <h4>Made in Korea </h4>
+          <h4>_______________________________</h4>
         </div>
         <div class ='shopbtn'>
-          <a href =' ' class='cart'>Add to Cart</a>
+          <a href ='cart.html' class='cartt'>Add to Cart</a>
         </div>
         <div class ='custombtn'>
-          <a href =' ' class='customization'>Customization</a>
+          <a href ='#' class='customization'>Customization</a>
         </div>
       </article>
       <div class ='video'>
-        <video width="720" height="104" controls>
+        <video class ='size' controls>
           <source src="img/adidass.mp4" type="video/mp4">
         </video>
       </div>
       <div class ='carou'>
       <div class="hero">
-        <img src="img/air3.png" alt="An orange-eyed grey cat stretches toward the camera."/>
+        <img src="img/air3.png" alt="shoe1"x/>
       </div>
       <div class="thumbnails">
         <div class='clicks'>
-        <a class="thumbnail" href="#"><img src="img/air1.png" alt="An orange-eyed grey cat stretches toward the camera."/></a>
-        <a class="thumbnail" href="#"><img src="img/air2.png" alt="Closeup of a blue-eyed, grey cat with markings."/></a>
-        <a class="thumbnail" href="#"><img src="img/air3.png" alt="An orange cat licks its paw."/></a>
-        <a class="thumbnail" href="#"><img src="img/air1.png" alt="A content brown cat lounges with eyes closed."/></a>
+        <a class="thumbnail" href="#"><img src="img/air1.png" alt="shoe2"/></a>
+        <a class="thumbnail" href="#"><img src="img/air2.png" alt="shoe3"/></a>
+        <a class="thumbnail" href="#"><img src="img/air3.png" alt="shoe4"/></a>
+        <a class="thumbnail" href="#"><img src="img/air1.png" alt="shoe5"/></a>
       </div>
     </div>
     </div>
-      <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script src="product.js"></script>
+      <script src="navbar.js"></script>
 </body>
 </html>
