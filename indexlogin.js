@@ -30,11 +30,7 @@ $(document).ready(function () {
 
           if((username === log_user) && (password === log_pass)){
             window.location.assign('loading.html');
-          } else {
-            document.getElementById("user_info").style.visibility = "hidden";
-            document.getElementById("error").style.visibility = "visible";
-            document.getElementById("error").style.zIndex = "1";
-          }
+          } 
         }
       });
     }
