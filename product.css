@@ -119,6 +119,12 @@ navbar ul li {
     position: absolute;
     top:91.4%
   }
+
+  .threed {
+    position: absolute;
+    top: 15%;
+    left: 12%;
+  }
   .customization {
     background-color: white;
     color: black;
@@ -397,6 +403,12 @@ navbar ul li {
       .size {
         width: 500px;
         height: 104px;
+    }
+
+    .threed {
+      position: absolute;
+      top: 15%;
+      left: 14%;
     }
   }
 
@@ -759,6 +771,11 @@ navbar ul li {
         top: 125%;
         left: 13%;
       }
+      .threed {
+        position: absolute;
+        top: 15%;
+        left: 24%;
+      }
   }
 
   @media screen and (max-width: 850px) {
@@ -1031,5 +1048,11 @@ navbar ul li {
         position: absolute;
         top: 125%;
         left: 7.5%;
+      }
+
+      .threed {
+        position: absolute;
+        top: 25%;
+        left: 3%;
       }
   }
