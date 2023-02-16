@@ -87,7 +87,7 @@ h2 {
     top: -120%;
     left: -100%;
 }
-
+/** Mobile Responsive **/
 @media screen and (max-width: 930px) {
     .img {
         border-radius: 100%;
