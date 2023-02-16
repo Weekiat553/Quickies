@@ -1,18 +1,27 @@
 # Rookies-Inegrated-Project
 <h1>Quickies (E-commerce site)</h2>
 <h4>Project Description </h4>
-<p>Our project is about a website on shoes. Our shoe website targets people who love limited addition shoes and people who just want to buy shoes. What stands out </p>
+<p>Our project is about a website on shoes. Our shoe website targets people who love limited addition shoes and people who just want to buy shoes. Our website is a unique website, it entails gamification concept that will encourages users of any ages to continuously use our website. 
+ </p>
+
+ <p>Our website have special animations to showcase our shoe inventory.This will make our website more interesting and more attractive. </p> 
 
 <h3>Design Process</h3>
+<p>We went with a squarish web layout which might look simple, but the overview will look allurring. When users first utilise our website, they will have this sense of peace. This website will give user a realistic experience when navigating and browsing through the website. There are arrows and labels that are situated around the website navigate easily. This will make our website interactive and engaging for our users. </p>
+
+
+<p>Feature</p>
 <p>Feature 1: Allows user to login and sign up</p>
-<p>Feature 2: A carousel in product page to let user see the different side of shoe</p>
+<p>Feature 2: A carousel in the product page to let users see the different angles of the shoe</p>
 <p>Feature 3: A cart page with items inside, user can remove the items</p>
 <p>Feature 4: A checkout page for users to fill in their credentials for payment and delivery</p>
-<p>Feature 5: A map for user to interact around with under contact</p>
+<p>Feature 5: A map for user to drag around in the contact page</p>
 
 <p>Future feature</p>
 <p>Feature 1: Customization page</p>
-<p>Feature 2: 3D view of the shoe</p>
+<p>Feature 2: Video popup in latest page for users to watch the video and hunt for codes</p>
+<p>Feature 3: Differet catagory for the product page </p>
+<p>Feature 4: 3D animation for the latest page </p>
 
 <h3>Technology Used: </h3>
 <p>HTML, CSS, Javascript</p>
