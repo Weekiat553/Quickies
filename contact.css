@@ -117,6 +117,53 @@ h3 {
       }
   }
 
+  @media screen and (max-width: 400px) {
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 40px;
+      }
+      h2 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Signika Negative', sans-serif;
+      
+        font-size: 30px;
+      }
+      
+      h3 {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Signika Negative', sans-serif; 
+        font-size: 20px;
+      }
+    .map {
+        position: absolute;
+        top:10%;
+        left:3%;
+      }
+      .scroll {
+        width: 600px;
+        height: 630px;
+        overflow: hidden;
+        overflow-y: scroll;
+      }
+      .locations {
+        position: absolute;
+        top: 60%;
+        left:3%;
+      }
+      .blue {
+        background-color: white;
+        padding: 7%;
+        width: 90%;
+        transition: transform 1s;
+      }
+      .blue:hover {
+        transform: scale(1.1);
+      }
+  }
+
   @media screen and (max-width: 360px) {
     h1 {
         font-family: 'Poppins', sans-serif;
