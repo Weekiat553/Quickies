@@ -62,7 +62,7 @@ https://www.flaticon.com/free-icon/user_1144760?term=profile&page=1&position=2&o
 https://www.adidas.com.sg/outlet
 http://nike.com.sg/
 https://www.flaticon.com/search?word=back
-
+https://www.flaticon.com/free-icon/3d-model_2818102?term=3d&page=1&position=1&origin=search&related_id=2818102
 
 <p>Tutorial</p>
 https://replit.com/@Alfredo08/Cat-Carousel?v=1
