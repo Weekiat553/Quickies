@@ -1,4 +1,4 @@
-# Rookies-Inegrated-Project
+# Rookies-Inegrated-Project (Quickies)
 <h1>Quickies (E-commerce site)</h2>
 <h4>Project Description </h4>
 <p>Our project is about a website on shoes. Our shoe website targets people who love limited addition shoes and people who just want to buy shoes. Our website is a unique website, it entails gamification concept that will encourages users of any ages to continuously use our website. 
